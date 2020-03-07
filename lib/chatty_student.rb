@@ -5,8 +5,10 @@ class ChattyStudent
   end
   
   def raise_hand
-    for (i = 0; i < 9; i++)
+    i = 0
+    while i < 9 do
     super
+    i++
     end
   end
 end
